@@ -1,0 +1,663 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2024-12-05 18:26:54",
+    "containerVersion": {
+        "path": "accounts/6259914235/containers/201174516/versions/0",
+        "accountId": "6259914235",
+        "containerId": "201174516",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6259914235/containers/201174516",
+            "accountId": "6259914235",
+            "containerId": "201174516",
+            "name": "lynx growth agency",
+            "publicId": "GTM-M3FC8R82",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1733013923499",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6259914235/containers/201174516/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-M3FC8R82"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "3",
+                "name": "Google Analytics Tag",
+                "type": "googtag",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "G-WWHXKP4HM8"
+                    }
+                ],
+                "fingerprint": "1733119593410",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "4",
+                "name": "CTA Click Event",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "CTA click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "G-WWHXKP4HM8"
+                    }
+                ],
+                "fingerprint": "1733119623340",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "8",
+                "name": "Form Start Event - GA4",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "form_start"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "G-WWHXKP4HM8"
+                    }
+                ],
+                "fingerprint": "1733119998494",
+                "firingTriggerId": [
+                    "7"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "9",
+                "name": "Facebook Pixel",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<!-- Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '1658001168430562');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=1658001168430562&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1733254395277",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "23",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "11",
+                "name": "Form Submission - GA4",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "form_submit"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "G-WWHXKP4HM8"
+                    }
+                ],
+                "fingerprint": "1733119990737",
+                "firingTriggerId": [
+                    "10"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "14",
+                "name": "Track Lead Facebook",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n  fbq('track', 'Lead');\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1733119926705",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "23",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "15",
+                "name": "Hotjar Tag Tracking",
+                "type": "hjtc",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "hotjar_site_id",
+                        "value": "5194217"
+                    }
+                ],
+                "fingerprint": "1733119665088",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "24",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "16",
+                "name": "Conversion Linker",
+                "type": "gclidw",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCrossDomain",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableUrlPassthrough",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCookieOverrides",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1733119636819",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "19",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "17",
+                "name": "Remarketing Google Ads",
+                "type": "sp",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableDynamicRemarketing",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "11222486256"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customParamsFormat",
+                        "value": "NONE"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1733119144181",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "19",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "20",
+                "name": "Callrail code",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script type=\"text/javascript\" src=\"//cdn.callrail.com/companies/617316954/d5cb2052bad06b192887/12/swap.js\"></script> "
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1733119688177",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "25",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "tagId": "21",
+                "name": "Google Ads Conversion - Form Submit",
+                "type": "awct",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEnhancedConversion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableShippingData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "11222486256"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "_oGTCLrxxvEZEPCZpucp"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1733119782671",
+                "firingTriggerId": [
+                    "10"
+                ],
+                "parentFolderId": "19",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "triggerId": "5",
+                "name": "Clicks CTA links",
+                "type": "LINK_CLICK",
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1733111268567"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "triggerId": "7",
+                "name": "form_start",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "form_start"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1733111608077"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "triggerId": "10",
+                "name": "form_submit",
+                "type": "FORM_SUBMISSION",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page Hostname}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "TEMPLATE"
+                },
+                "checkValidation": {
+                    "type": "TEMPLATE"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1733111774933"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "triggerId": "12",
+                "name": "scroll",
+                "type": "SCROLL_DEPTH",
+                "fingerprint": "1733112613239",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdUnits",
+                        "value": "PERCENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdsPercent",
+                        "value": "25, 50, 75, 100"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "verticalThresholdOn",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "triggerStartOption",
+                        "value": "WINDOW_LOAD"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "horizontalThresholdOn",
+                        "value": "false"
+                    }
+                ]
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "folderId": "19",
+                "name": "Google Ads",
+                "fingerprint": "1733119141970"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "folderId": "22",
+                "name": "Google Analytics",
+                "fingerprint": "1733119590250"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "folderId": "23",
+                "name": "Facebook",
+                "fingerprint": "1733119613221"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "folderId": "24",
+                "name": "Hotjar",
+                "fingerprint": "1733119663508"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "folderId": "25",
+                "name": "Callrail",
+                "fingerprint": "1733119679105"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6259914235",
+                "containerId": "201174516",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1733423214426",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6259914235/containers/201174516/versions/0?apiLink=version"
+    }
+}
